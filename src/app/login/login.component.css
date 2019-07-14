@@ -1,0 +1,78 @@
+.ng-valid[required], .ng-valid.required {
+  /* border-left: 5px solid #42A948; /* green */
+  border: 1px solid #B2B2B2; /* light gray */
+}
+
+.ng-invalid:not(form)  {
+  border-left: 5px solid #a94442; /* red */
+}
+
+.form{
+position: fixed; top: 50%; left: 50%;
+vertical-align: center;
+}
+
+label{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 16px;
+	text-align: center;
+	letter-spacing: 0.492px;
+	color: #000000; /* black */
+}
+
+input {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #B2B2B2;
+  border-radius: 10px;
+  color: #000000; /* black */
+}
+
+select {
+  width: 50%;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+button {
+	position: center;
+	width: 157.01px;
+	height: 40.71px;
+	left: 100px;
+	background: #000000; /* black */
+	border-radius: 10px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 16px;
+	text-align: center;
+	letter-spacing: 0.492px;
+	color: #FFB70F; /* yelllow */
+}
+
+h1{
+	text-align: center;
+}
+
+div{
+	text-align: center;
+}
+
